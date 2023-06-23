@@ -14,3 +14,5 @@ if(action.type==='decrement'){
 return state;
 };
 const store=legacy_createStore(counterReducer);
+
+export default store;
